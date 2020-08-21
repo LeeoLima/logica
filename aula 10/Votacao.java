@@ -42,7 +42,7 @@ public class Votacao {
 		} else if (candidato <=4 && candidato >3) {
 			System.out.println("---- VOTO EM BRANCO ----");
 		} else {
-			System.out.println("---- VOTO IRREGULAR ----");
+			System.out.println("------ VOTO NULO -------");
 		}
 		teclado.close();
 	}
