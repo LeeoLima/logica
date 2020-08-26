@@ -34,13 +34,13 @@ public class Jokenpo {
 		System.out.println("Resultado: " );
 		
 		//estrutura de controle condicional
-		if (resultado >=3 && resultado <4) {
-			System.out.println("Pepel ganhou");
-		} else if (resultado >=4 && resultado <5) {
+		if (resultado == 3) {
+			System.out.println("Papel ganhou");
+		} else if ((resultado+3) == 7) {
 			System.out.println("Pedra ganhou");
-		} else if (resultado >=5 && resultado <6) {
+		} else if (resultado == 5) {
 			System.out.println("Tesoura ganhou");
-		} else {
+		} else{
 			System.out.println("Empate");
 		}
 		teclado.close();
